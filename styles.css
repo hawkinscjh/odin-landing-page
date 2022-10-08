@@ -40,6 +40,12 @@ a {
     flex-direction: column;
 }
 
+.hero-subtext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
 .hero {
     display: flex;
     flex-direction: row;
@@ -51,5 +57,59 @@ a {
 }
 
 .hero-title {
-    ;
+    font-size: 32px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.hero-image {
+    margin: 48px;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 32px;
+    padding: 32px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    
+}
+
+.quote-text {
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    margin-bottom: 16px;
 }
